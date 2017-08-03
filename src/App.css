@@ -1,0 +1,44 @@
+
+div {
+
+  font-family: Arial;
+  background-color: #222;
+
+  padding: 5px;
+  color: white;
+}
+
+h1 
+{
+text-align: center;
+}
+form{
+  text-align: center;
+  padding: 10px;
+}
+#inpuut {
+    width:300px;
+    height: 20px;
+    text-align: center;
+    font-size: 100% ;
+
+}
+#submit {
+    width:auto;
+    height: 26px;
+    text-align: center;
+    font-size: 100% ;
+    margin-left: 5px;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: green;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}

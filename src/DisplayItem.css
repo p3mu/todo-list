@@ -1,0 +1,13 @@
+button {
+
+    text-align: center;
+    margin-left: 15px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+li {
+  margin-left: 40%;
+}
