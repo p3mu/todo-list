@@ -23,11 +23,11 @@ class App extends Component {
 
         <form onSubmit={this.handleSubmit.bind(this)}>
           <input
-            id="inpuut"
+            id='inpuut'
             onChange={this.handleChange.bind(this)}
             value={this.state.title}
           />
-          <button id="submit">submit</button>
+          <button id='submit'>submit</button>
         </form>
 
         <DisplayList
@@ -37,23 +37,13 @@ class App extends Component {
         />
 
         <footer>
-          All : {this.state.todos.length} |
-          Completed :
-          {
-            this.state.todos.filter(todo => {
-              return todo.done
-            }).length
-          } |
-
-          Pending :
-          {
-            this.state.todos.filter(todo => {
-              return !todo.done
-            }).length
-          } |
-
+          All:&nbsp;{this.state.todos.length} |
+          Completed:&nbsp;
+          {this.state.todos.filter(todo => todo.done).length} |
+          Pending:&nbsp;
+          {this.state.todos.filter(todo => !todo.done).length} |
           <button onClick={this.handleClearCompleted.bind(this)}>
-            clear completed
+            Clear completed
           </button>
         </footer>
 

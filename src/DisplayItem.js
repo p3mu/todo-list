@@ -2,8 +2,8 @@ import React from 'react'
 import './DisplayItem.css'
 
 class DisplayItem extends React.Component {
-  constructor () {
-    super()
+  constructor (p, c) {
+    super(p, c)
     this.state = { editing: false }
   }
 
